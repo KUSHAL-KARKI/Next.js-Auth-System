@@ -462,3 +462,78 @@ background: white;
 }
 
 
+/* Admin Page Styles */
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+ 
+}
+.admin-card {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.admin-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.admin-table th {
+  background-color: #f8fafc;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.admin-table tbody tr:hover {
+  background-color: #f1f5f9;
+  transition: background 0.2s ease-in-out;
+}
+
+.admin-table td {
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.admin-table td:nth-child(3) {
+  font-weight: 600;
+}
+
+.admin-table td:nth-child(4) {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.no-users {
+  text-align: center;
+  padding: 2rem;
+  color: #6b7280;
+}
